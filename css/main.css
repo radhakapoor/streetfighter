@@ -2,6 +2,12 @@ body {
 	background-color: black;
 }
 
+p {
+	font-family: arial;
+	font-size: 20px;
+	color: red;	
+}
+
 .main {
 	background-color: white;
 	margin-top: 110px;
@@ -49,9 +55,17 @@ body {
 	height: 90px;
 	display: none;
 	position:relative;
-	top: 167px;
+	top: 80px; /*why does this move it up?*/
 	left: -212px;
-	float: left;
+	float: left;	
 }
+
+#instructions {
+	margin-top: 20px;
+	float: right;
+	width: 650px;
+	height: 50px; 	
+}
+
 
 
