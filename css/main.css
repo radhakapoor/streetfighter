@@ -54,17 +54,19 @@ p {
 	width: 156px;
 	height: 90px;
 	display: none;
-	position:relative;
+	position:relative; /*if not relative positioning the animation doesn't happen*/
 	top: 80px; /*why does this move it up?*/
 	left: -212px;
-	float: left;	
+	float: left;
+	background-color: red;	
 }
 
 #instructions {
 	margin-top: 20px;
 	float: right;
 	width: 650px;
-	height: 50px; 	
+	height: 50px;
+	background-color: yellow; 	
 }
 
 
