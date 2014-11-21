@@ -54,8 +54,8 @@ p {
 	width: 156px;
 	height: 90px;
 	display: none;
-	position:relative; /*if not relative positioning the animation doesn't happen*/
-	top: 60px; /*why does this move it up?*/
+	position:relative; /*if not relative positioning the animation doesn't work*/
+	top: 60px; 
 	left: -212px;
 	float: left;	
 }
